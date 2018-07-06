@@ -1,5 +1,5 @@
 {
-  "name": "muppet",
+  "name": "@fujio0000/muppet",
   "version": "1.0.0",
   "description": "muppet",
   "main": "example.js",
@@ -21,5 +21,8 @@
   "homepage": "https://github.com/fujio0000/muppet#readme",
   "dependencies": {
     "puppeteer": "^1.5.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
