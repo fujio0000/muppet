@@ -2,7 +2,7 @@
   "name": "@fujio0000/muppet",
   "version": "1.0.0",
   "description": "muppet",
-  "main": "example.js",
+  "main": "muppet.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
