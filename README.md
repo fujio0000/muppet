@@ -4,6 +4,12 @@
 
 Get screenshot
 
+# installation
+
+```
+$ npm i muppet
+```
+
 # usage
 
 ```
