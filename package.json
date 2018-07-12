@@ -4,6 +4,7 @@
   "description": "muppet",
   "main": "muppet.js",
   "scripts": {
+    "lint": "eslint muppet.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
@@ -30,5 +31,9 @@
   },
   "engines": {
     "node": ">= 8.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.1.0",
+    "standard": "^11.0.1"
   }
 }
