@@ -7,7 +7,7 @@ Get screenshot
 # installation
 
 ```
-$ npm i muppet
+$ npm i @fujio0000/muppet
 ```
 
 # usage
