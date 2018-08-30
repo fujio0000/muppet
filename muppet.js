@@ -16,7 +16,7 @@ const puppeteer = require('puppeteer');
     });
     await page.screenshot({path: filepath});
   } catch (error) {
-    console.error(error)
+    console.error(error);
   }
 
   await browser.close();
