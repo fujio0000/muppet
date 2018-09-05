@@ -10,12 +10,12 @@ const puppeteer = require('puppeteer');
   const browser = await puppeteer.launch();
   try {
     const page = await browser.newPage();
-    await page.goto(url, {waitUntil: 'networkidle2'});
+    await page.goto(url, { waitUntil: 'networkidle2' });
     await page.setViewport({
       width: width,
       height: 0
     });
-    await page.screenshot({path: filepath});
+    await page.screenshot({ path: filepath });
   } catch (error) {
     console.error(error);
   }
