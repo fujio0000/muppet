@@ -1,6 +1,6 @@
 {
   "name": "@fujio0000/muppet",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "description": "muppet",
   "main": "muppet.js",
   "scripts": {
