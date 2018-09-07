@@ -19,7 +19,7 @@ async function sleep(delay) {
   try {
     const page = await browser.newPage();
     await page.goto(url, { waitUntil: 'networkidle2' });
-    await sleep(5000);
+    await sleep(2000);
     await page.setViewport({
       width: width,
       height: 0
