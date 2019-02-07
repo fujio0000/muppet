@@ -2,7 +2,7 @@
 
 const puppeteer = require('puppeteer');
 
-async function sleep(delay) {
+async function sleep (delay) {
   return new Promise(resolve => setTimeout(resolve, delay));
 }
 
