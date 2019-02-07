@@ -19,7 +19,7 @@ async function sleep (delay) {
   try {
     const page = await browser.newPage();
     await page.goto(url, { waitUntil: 'networkidle2' });
-    // facebookのプレビュー用、特定のidの要素が存在する場合はiframeのサイズを調整するjsを実行
+    // Adjust the height of iframe.
     page.evaluate(() => {
       var iframe = document.getElementById("u_0_0");
       if(iframe != null){
