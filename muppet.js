@@ -10,7 +10,7 @@ async function sleep (delay) {
   const width = Number(process.argv[2]);
   const filepath = String(process.argv[3]);
   const url = String(process.argv[4]);
-  var browser = null;
+  let browser = null;
   if (!process.env.CHROMEPATH) {
     browser = await puppeteer.launch();
   } else {
@@ -21,9 +21,9 @@ async function sleep (delay) {
     await page.goto(url, { waitUntil: 'networkidle2' });
     // Adjust the height of iframe.
     page.evaluate(() => {
-      var iframe = document.getElementById("u_0_0");
-      if(iframe != null){
-        var height = document.documentElement.clientHeight;
+      const iframe = document.getElementById('u_0_0');
+      if (iframe != null) {
+        const height = document.documentElement.clientHeight;
         iframe.height = height;
       }
     });
